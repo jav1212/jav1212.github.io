@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mi landing page personal</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Estilos globales */
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        background-color: #f5f5f5;
+        color: #333;
+      }
+      a {
+        color: #0077cc;
+        text-decoration: none;
+        transition: color 0.3s ease;
+      }
+      a:hover {
+        color: #005ea8;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-weight: 700;
+        margin-top: 0;
+        margin-bottom: 20px;
+        color: #333;
+        text-align: center;
+      }
+      h1 {
+        font-size: 36px;
+        line-height: 1.2;
+        margin-top: 60px;
+      }
+      h2 {
+        font-size: 24px;
+      }
+      p {
+        margin-bottom: 20px;
+        text-align: justify;
+      }
+      ul {
+        list-style: none;
+        margin-left: 0;
+        padding-left: 0;
+      }
+      li {
+        margin-bottom: 10px;
+      }
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-bottom: 10px;
+        font-size: 16px;
+        color: #333;
+      }
+      button[type="submit"] {
+        background-color: #0077cc;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      button[type="submit"]:hover {
+        background-color: #005ea8;
+      }
+
+      /* Estilos para el encabezado */
+      header {
+        background-color: #005ea8;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+        z-index: 1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      header h1 {
+        font-size: 24px;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+      header nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      header nav li {
+        margin-left: 20px;
+      }
+      header nav a {
+        font-size: 16px;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        padding: 10px;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+      }
+      header nav a:hover {
+        background-color: #0077cc;
+        color: #fff;
+      }
+
+      /* Estilos para el contenido */
+      main {
+        max-width: 900px;
+        margin: 120px auto 0;
+        padding: 20px;
+      }
+      section {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        background-color: #fff;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+        border-radius: 10px;
+        padding: 20px;
+      }
+      section h2 {
+        font-size: 24px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+        color: #0077cc;
+      }
+      section p {
+        margin-bottom: 20px;
+        text-align: justify;
+      }
+      section ul {
+        margin-bottom: 20px;
+      }
+      section ul li a {
+        color: #0077cc;
+      }
+      section ul li a:hover {
+        text-decoration: underline;
+      }
+      .linea {
+        height: 1px;
+        width: 100%;
+        margin: 20px 0;
+        background-color: #ccc;
+      }
+      .caja {
+        background-color: #0077cc;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-bottom: 60px;
+      }
+      .caja h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      .caja p {
+        margin-bottom: 10px;
+      }
+
+      /* Estilos para el pie de página */
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        font-size: 14px;
+        margin-top: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Mi landing page personal</h1>
+      <nav>
+        <ul>
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#estudios">Estudios</a></li>
+          <li><a href="#hobbies">Hobbies</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <p>
+          Hola, soy Javier Molina y me apasiona aprender cosas nuevas y
+          disfrutar de mis hobbies en mi tiempo libre.
+        </p>
+        <p>
+          Siempre he sido una persona curiosa y creativa, y me gusta explorar
+          nuevas ideas y tecnologías. Me gusta trabajar en equipo y colaborar en
+          proyectos interesantes.
+        </p>
+        <img
+          src="foto.png"
+          alt="Descripción de la imagen"
+          style="display: block; margin: auto; width: 400px; height: 300px"
+        />
+      </section>
+      <section id="estudios">
+        <h2>Estudios</h2>
+        <ul>
+          <li>
+            Estudios universitarios en la Universidad Catolica Andres Bello
+          </li>
+          <li>
+            Estudios extracurriculares en el Conservatorio Musical Simon Bolivar
+          </li>
+        </ul>
+      </section>
+      <section id="hobbies">
+        <h2>Hobbies</h2>
+        <ul>
+          <li><a href="#">Ver y Jugar Deportes</a></li>
+          <li><a href="#">Escuchar y Estudiar musica</a></li>
+          <li><a href="#">Leer</a></li>
+          <li><a href="#">Ver series</a></li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Mi blog. Todos los derechos reservados.</p>
+    </footer>
+  </body>
+</html>
